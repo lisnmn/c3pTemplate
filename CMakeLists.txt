@@ -3,7 +3,7 @@ project(c3pTemplate)
 
 set(CMAKE_CXX_STANDARD 14)
 
-ADD_COMPILE_OPTIONS(-Wl,-Bsymbolic -fvisibility=hidden)
+ADD_COMPILE_OPTIONS(-fvisibility=hidden)
 
 FIND_PACKAGE(OpenMP REQUIRED)
 if(OPENMP_FOUND)
